@@ -29,7 +29,7 @@ h2{
 .center-content{
     display: flex;
     justify-content: center;
-    align-items: top;
+    align-items: center;
     height: 50vh;
     text-align: center;
     color: #fff;
@@ -38,9 +38,24 @@ h2{
     font-size: 160px;
     color: #fff;
     font-weight: 600;
-
-    /* Profile and resume */
-} 
+    transition: 0.5s;
+}
+.center-content h1:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+.center-content a{
+    text-decoration: none;
+    display: inline-block;
+    color: #ffff;
+    font-size: 24px ;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+    /* Profile*/
+ 
 .btn1{
     background: transparent;
     height: 50px;
@@ -55,7 +70,7 @@ h2{
     font-size: 15px;
     box-shadow: 0 0 0 white;
     transition: ease-in .5s;
-    margin-right: 40%;
+    margin-left: 40%;
     
 }
 a{
@@ -70,8 +85,6 @@ a{
 .btn1:hover a{
     color: rgb(38, 38, 38);
 }
-
-
 .social{
     display: flex;
     justify-content: center;
@@ -81,6 +94,9 @@ a{
     color: #fff;
 
 }
+
+
+/* resume*/
 .btn2{
     background: transparent;
     height: 50px;
@@ -130,7 +146,7 @@ a{
 }
 /*navigation bar */
 nav{
-    margin: 27px auto 0;
+    margin: 10px auto 0;
     position: relative;
     width: 555px;
     height: 50px;
@@ -187,7 +203,7 @@ nav .start-Youtube, a:nth-child(2):hover~.animation{
 }
 nav .start-Twitter, a:nth-child(3):hover~.animation{
     width: 100px;
-    left: 230px;
+    left: 232px;
     background-color: #1abc9c;
 }
 nav .start-Linkedin, a:nth-child(4):hover~.animation{
