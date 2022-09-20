@@ -70,7 +70,11 @@ h2{
     font-size: 15px;
     box-shadow: 0 0 0 white;
     transition: ease-in .5s;
-    margin-left: 40%;
+    margin-left: 37%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    font-size: 18px;
     
 }
 a{
@@ -111,11 +115,11 @@ a{
     font-size: 15px;
     box-shadow: 0 0 0 white;
     transition: ease-in .5s;
-}
-a{
-    color: #fff;
-    text-decoration: none;
-    transition: ease-in-out .5s;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 52%;
 }
 .btn2:hover{
     box-shadow: 0 0 20px #fff;
@@ -126,33 +130,34 @@ a{
 }
 
 
-.social{
-    display: flex;
-    justify-content: center;
-    align-items: top;
-    height: 100vh;
+.Social{
+    position: absolute;
+    top: 10%;
+    width: 100%;
     text-align: center;
-    color: #fff;
+    font-size: 18px;
 
 }
 /* this is the personal info*/
 .info{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-    color: #fff;
+position: absolute;
+top: 43%;
+width: 100%;
+text-align: center;
+font-size: 18px;
+   
 }
 /*navigation bar */
 nav{
-    margin: 10px auto 0;
+    margin: 10px auto ;
     position: relative;
     width: 555px;
     height: 50px;
     background-color: #34495e;
     border-radius: 8px;
     font-size: 0;
+    justify-content: center;
+    align-items: center;
 }
 nav a{
     line-height: 50px;
